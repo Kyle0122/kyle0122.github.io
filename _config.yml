@@ -1,4 +1,7 @@
 theme: jekyll-theme-leap-day
+markdown: kramdown
+title: Kyle's Blog
+discription: It's a nice day
 
 host: 0.0.0.0
 port: 4000
