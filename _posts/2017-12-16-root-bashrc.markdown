@@ -1,7 +1,7 @@
 ---
-layout:posts
+layout: posts
 title: ".bashrc is not working with root user"
-date: 2017-12-16 00:42:00
+date: 2017-12-16 00:42:00 -0500
 ---
 
 .bashrc is not working with root user,
