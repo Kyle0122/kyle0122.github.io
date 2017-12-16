@@ -19,4 +19,4 @@ echo "Hello Root"
 alias ls='ls --color=always'
 alias ll='ls -al --color=always'
 PS1='[\u@\h \W]\$ '
-{% highlight bash %}
+{% endhighlight bash %}
