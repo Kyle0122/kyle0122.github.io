@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "root bashrc"
 date: 2017-12-16 00:42:00 -0800
 ---
