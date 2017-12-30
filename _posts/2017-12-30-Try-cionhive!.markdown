@@ -20,8 +20,14 @@ For example:
 </div>
 {% endhighlight html %}
 The company also provide a captcha:
-<script src="https://authedmine.com/lib/captcha.min.js" async></script>
-<div class="coinhive-captcha" data-hashes="128" data-key="9awGQScKwk0XOpgctguVBSUr7imDiszh">
-	<em>Loading Captcha...<br>
-	If it doesn't load, please disable Adblock!</em>
-</div>
+<form action="?" method="post">
+	<!-- other form fields -->
+
+	<script src="https://authedmine.com/lib/captcha.min.js" async></script>
+	<div class="coinhive-captcha" data-hashes="1024" data-key="9awGQScKwk0XOpgctguVBSUr7imDiszh">
+		<em>Loading Captcha...<br>
+		If it doesn't load, please disable Adblock!</em>
+	</div>
+
+	<input type="submit" value="Submit"/>
+</form>
