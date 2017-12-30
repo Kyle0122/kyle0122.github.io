@@ -20,14 +20,29 @@ For example:
 </div>
 {% endhighlight html %}
 The company also provide a captcha:
+ <form action="?" method="post">
+	<!-- other form fields -->
+
+	<script src="https://authedmine.com/lib/captcha.min.js" async></script>
+	<div class="coinhive-captcha" data-hashes="256" data-key="9awGQScKwk0XOpgctguVBSUr7imDiszh">
+		<em>Loading Captcha...<br>
+		If it doesn't load, please disable Adblock!</em>
+	</div>
+
+	<input type="submit" value="Submit"/>
+ </form>
+
+{% highlight html %}
 <form action="?" method="post">
 	<!-- other form fields -->
 
 	<script src="https://authedmine.com/lib/captcha.min.js" async></script>
-	<div class="coinhive-captcha" data-hashes="1024" data-key="9awGQScKwk0XOpgctguVBSUr7imDiszh">
+	<div class="coinhive-captcha" data-hashes="256" data-key="9awGQScKwk0XOpgctguVBSUr7imDiszh">
 		<em>Loading Captcha...<br>
 		If it doesn't load, please disable Adblock!</em>
 	</div>
 
 	<input type="submit" value="Submit"/>
 </form>
+{% endhighlight html %}
+note that the value of data-hash must be a multiple of 256.
