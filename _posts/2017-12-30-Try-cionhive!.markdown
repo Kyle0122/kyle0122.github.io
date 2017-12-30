@@ -19,7 +19,8 @@ For example:
 	<em>Loading...</em>
 </div>
 {% endhighlight html %}
-The company also provide a captcha:
+
+The company also provides a captcha:
  <form action="?" method="post">
 	<!-- other form fields -->
 
@@ -45,4 +46,4 @@ The company also provide a captcha:
 	<input type="submit" value="Submit"/>
 </form>
 {% endhighlight html %}
-note that the value of data-hash must be a multiple of 256.
+note that the value of data-hashes must be a multiple of 256.
