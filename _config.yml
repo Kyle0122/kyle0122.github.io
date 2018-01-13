@@ -1,7 +1,7 @@
 theme: jekyll-theme-leap-day
 markdown: kramdown
 title: S = ln(ω)
-discription: A blog form a programmer from Phyiscs lab
+description: A blog form a programmer from Phyiscs lab
 
 host: 0.0.0.0
 port: 4000
