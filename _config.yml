@@ -1,6 +1,6 @@
 theme: jekyll-theme-leap-day
 markdown: kramdown
-title: S = ln(ω)
+title: S = k·ln(ω)
 description: A blog form a programmer from Phyiscs lab
 
 host: 0.0.0.0
