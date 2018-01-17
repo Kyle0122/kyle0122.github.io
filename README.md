@@ -1,6 +1,6 @@
 ---
-layout:post
-title:README
+layout:  post
+title:   README
 ---
 ## Welcome to GitHub Pages
 
