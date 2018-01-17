@@ -34,10 +34,12 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 This Project is using theme 'The leap day'.
 
 ### Build and Run
+```
+Syntax highlighted code block
 
 $bundle install
 $bundle exec jekyll serve
-
+```
 Then your website is ready on localhost:4000
 
 ### Support or Contact
