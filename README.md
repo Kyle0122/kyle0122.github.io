@@ -35,8 +35,6 @@ This Project is using theme 'The leap day'.
 
 ### Build and Run
 ```
-Syntax highlighted code block
-
 $bundle install
 $bundle exec jekyll serve
 ```
