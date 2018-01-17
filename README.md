@@ -1,6 +1,5 @@
 ---
-layout:  default
-title:   README
+layout:  page
 ---
 ## Welcome to GitHub Pages
 
