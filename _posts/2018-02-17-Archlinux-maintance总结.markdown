@@ -37,8 +37,7 @@ $ pacman -S --force ....
 
 参考：
 
-[pacman:Tips&tricks简体中文](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks_(简体中文))
-<br>
+[pacman:Tips&tricks简体中文](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks_(简体中文)). <br>
 [pacman:Tips&tricks](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks)
 
 [Archlinux System_maintenance](https://wiki.archlinux.org/index.php/System_maintenance)
