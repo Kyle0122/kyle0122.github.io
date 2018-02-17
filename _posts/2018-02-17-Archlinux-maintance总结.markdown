@@ -10,9 +10,9 @@ date: 2018-02-17 16:20:00 -0800
 删掉的方法很简单:
 {% highlight bash %}
 显示孤立包
-# pacman -Qtdq
+$ pacman -Qtdq
 递归删除
-# pacman -Rs $(pacman -Qtdq)
+$ pacman -Rs $(pacman -Qtdq)
 {% endhighlight bash %}
 
 2.Archlinux 不支持部分升级，一定要全部更新
@@ -32,3 +32,11 @@ $ pacman -Fo /usr/lib/....
 强制重装
 $ pacman -S --force ....
 {% endhighlight bash %}
+
+参考：
+[pacman:Tips&tricks简体中文](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks_(简体中文))
+[pacman:Tips&tricks](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks)
+[Archlinux System_maintenance](https://wiki.archlinux.org/index.php/System_maintenance)
+[Archlinux pacman](https://wiki.archlinux.org/index.php/Pacman)
+[pacman 简体中文](https://wiki.archlinux.org/index.php/Pacman_(简体中文))
+[[Solved]Pacman, "is empty, not checked"](https://bbs.archlinux.org/viewtopic.php?id=215731)
