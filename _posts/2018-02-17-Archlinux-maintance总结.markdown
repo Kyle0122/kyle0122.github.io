@@ -40,6 +40,6 @@ $ pacman -S --force ....
 [pacman:Tips&tricks简体中文](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks_(简体中文)). <br>
 [pacman:Tips&tricks](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks). <br>
 [Archlinux System_maintenance](https://wiki.archlinux.org/index.php/System_maintenance). <br>
+[Archlinux pacman 简体中文](https://wiki.archlinux.org/index.php/Pacman_(简体中文)) <br>
 [Archlinux pacman](https://wiki.archlinux.org/index.php/Pacman) <br>
-[pacman 简体中文](https://wiki.archlinux.org/index.php/Pacman_(简体中文)) <br>
 [[Solved]Pacman, "is empty, not checked"](https://bbs.archlinux.org/viewtopic.php?id=215731)
