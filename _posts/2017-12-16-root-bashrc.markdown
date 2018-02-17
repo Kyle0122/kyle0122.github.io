@@ -20,3 +20,5 @@ alias ls='ls --color=always'
 alias ll='ls -al --color=always'
 PS1='[\u@\h \W]\$ '
 {% endhighlight bash %}
+
+The only problem is that .bash_profile will not be executed when you login using ssh.
