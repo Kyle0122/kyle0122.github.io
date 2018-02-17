@@ -6,7 +6,7 @@ date: 2018-02-17 16:20:00 -0800
 
 今天下午折腾Arch(之前更新包的时候断电了)总结一下学到的一些pacman用法。
 
-1.有些时候系统会产生几个孤立(orphans)包，它们已经在arch源里找不到了。
+1.有些时候系统会产生几个孤立(orphans)包，它们已经在arch源(以及各类repo)里找不到了。
 删掉的方法很简单:
 {% highlight bash %}
 显示孤立包
@@ -25,3 +25,10 @@ $ comm -23 <(pacman -Qeq|sort) <(pacman -Qgq base base-devel|sort)
 $ comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort)
 {% endhighlight bash %}
 
+4.安装(更新)时断电，我得到了一大堆ldconfig: xxxx is empty ....错误，解决办法是一个个找到对应的软件包并重装。
+{% highlight bash %}
+查询对应.so文件的软件包名
+$ pacman -Fo /usr/lib/....
+强制重装
+$ pacman -S --force ....
+{% endhighlight bash %}
