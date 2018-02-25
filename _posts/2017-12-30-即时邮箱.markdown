@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "即时邮箱"
+date:   2018-2-25 19:24:00 -0800
+---
+
+从[www.logver.com](https://www.logver.com)上看到的项目，github在此：[forsaken-mail](https://github.com/denghongcai/forsaken-mail)
+
+看起来很方便的样子，有两个demo随时可用：<br>
+[disposable](http://disposable.dhc-app.com) (github原作者)<br>
+[logver](http://tmail.date)<br>
+
+自己还没有vps，懒得自己搭建，以后要用再说喽！
