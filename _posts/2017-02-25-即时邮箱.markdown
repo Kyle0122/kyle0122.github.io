@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "即时邮箱"
-date:   2018-2-25 19:24:00 -0800
+date:   2018-02-25 19:24:00 -0800
 ---
 
 从[www.logver.com](https://www.logver.com)上看到的项目，github在此：[forsaken-mail](https://github.com/denghongcai/forsaken-mail)
