@@ -14,4 +14,4 @@ upload_dir: assets/images
 public_path: "{{site.url}}/assets/images"
 front_matter_path: ''
 use_front_matter_path: 
-file_template: ":year:/:month:/:day:/:filename:"
+file_template: ":filename:"
