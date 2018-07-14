@@ -10,8 +10,8 @@ collections:
 - path: ''
   label: Pages
   create: all
-upload_dir: ''
-public_path: ''
+upload_dir: assets/media
+public_path: "{{url.site}}/assets/media"
 front_matter_path: ''
 use_front_matter_path: 
-file_template: ":filename:"
+file_template: ":year:/:month:/:day:/:filename:"
