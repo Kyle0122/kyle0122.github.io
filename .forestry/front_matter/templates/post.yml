@@ -4,5 +4,5 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  name: main
-  label: Main
+  name: layout
+  label: Layout
