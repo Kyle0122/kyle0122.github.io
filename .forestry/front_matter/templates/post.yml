@@ -7,3 +7,5 @@ fields:
   name: layout
   label: Layout
   default: post
+pages:
+- _posts/fdm-printer.md
