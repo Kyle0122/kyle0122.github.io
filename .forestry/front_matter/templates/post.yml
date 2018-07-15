@@ -6,3 +6,4 @@ fields:
 - type: text
   name: layout
   label: Layout
+  default: post
