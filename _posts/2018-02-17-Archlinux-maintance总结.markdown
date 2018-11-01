@@ -35,6 +35,15 @@ $ pacman -Fo /usr/lib/....
 $ pacman -S --force ....
 {% endhighlight bash %}
 
+5.Cleaning the package cache
+{% highlight bash %}
+#To remove all the cached packages that are not currently installed, and the unused sync database, execute:
+$ pacman -Sc
+#Use clean twice removes all files from cache
+$ pacman -Scc
+{% endhighlight bash %}
+
+
 参考：
 
 [pacman:Tips&tricks简体中文](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks_(简体中文)). <br>
