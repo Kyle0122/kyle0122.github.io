@@ -7,8 +7,7 @@ date: 2018-11-06 16:57:29 +0800
 主要是三个函数：fopen fclose load
 
 ### **1. fopen**
-
-{% highlight matlab %}
+```matlab
     fileID = fopen(filename)
     fileID = fopen(filename,permission)
     fileID = fopen(filename,permission,machinefmt,encoding)
@@ -28,9 +27,9 @@ date: 2018-11-06 16:57:29 +0800
     
     %encoding%
     'UTF-8' 'US-ASCII'
-{% endhighlight matlab  %}
+```
 
-在note的开头打开可写的in.txt：
+#在note的开头打开可写的in.txt：
 ```matlab
     fopen('in.txt','w+','n','UTF-8');
 ```
@@ -47,7 +46,7 @@ date: 2018-11-06 16:57:29 +0800
     load(filename,'-ascii') treats filename as an ASCII file, regardless of the file extension.
     load(filename,'-mat') treats filename as a MAT-file, regardless of the file extension.
 ```
-在note的开头读取in.txt:
+#在note的开头读取in.txt:
 ```matlab
     load('in.txt');
 ```
