@@ -8,6 +8,7 @@ date: 2018-11-06 16:57:29 +0800
 
 ### **1. fopen**
 
+{% highlight matlab %}
     fileID = fopen(filename)
     fileID = fopen(filename,permission)
     fileID = fopen(filename,permission,machinefmt,encoding)
@@ -27,6 +28,7 @@ date: 2018-11-06 16:57:29 +0800
     
     %encoding%
     'UTF-8' 'US-ASCII'
+{% endhighlight %}
 
 在note的开头打开可写的in.txt：
     fopen('in.txt','w+','n','UTF-8')
