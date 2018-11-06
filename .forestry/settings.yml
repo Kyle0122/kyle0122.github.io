@@ -3,13 +3,18 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-collections:
-- path: _posts
+sections:
+- type: jekyll-posts
   label: Posts
   create: all
-- path: ''
+- type: jekyll-pages
   label: Pages
   create: all
+- type: directory
+  path: _data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml}"
 upload_dir: assets/images
 public_path: "{{site.url}}/assets/images"
 front_matter_path: ''
