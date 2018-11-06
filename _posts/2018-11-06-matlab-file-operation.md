@@ -50,3 +50,12 @@ date: 2018-11-06 16:57:29 +0800
 ```matlab
     load('in.txt');
 ```
+
+附上example.m:
+```matlab
+input = load('in.txt');
+out=fopen('out.txt','w+','n','UTF-8');
+
+fprintf(out,'%d',...);
+fclose(out);
+```
