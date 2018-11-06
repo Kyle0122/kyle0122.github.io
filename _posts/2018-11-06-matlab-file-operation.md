@@ -28,18 +28,18 @@ date: 2018-11-06 16:57:29 +0800
     
     %encoding%
     'UTF-8' 'US-ASCII'
-{% endhighlight  %}
+{% endhighlight matlab  %}
 
 在note的开头打开可写的in.txt：
-{% highlight matlab %}
+```matlab
     fopen('in.txt','w+','n','UTF-8');
-{% endhighlight %}
+```
 
 ### **2.fclose** ###
-{% highlight matlab %}
+```matlab
     fclose(fileID) closes an open file.
     fclose('all') closes all open files.
-{% endhighlight %}
+```
 
 ### **3.load** ###
 ```matlab
@@ -48,6 +48,6 @@ date: 2018-11-06 16:57:29 +0800
     load(filename,'-mat') treats filename as a MAT-file, regardless of the file extension.
 ```
 在note的开头读取in.txt:
-{% highlight matlab %}
+```matlab
     load('in.txt');
-{% endhighlight %｝
+```
