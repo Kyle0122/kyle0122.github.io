@@ -28,7 +28,7 @@ date: 2018-11-06 16:57:29 +0800
     
     %encoding%
     'UTF-8' 'US-ASCII'
-{% endhighlight %}
+{% endhighlight  %}
 
 在note的开头打开可写的in.txt：
 {% highlight matlab %}
