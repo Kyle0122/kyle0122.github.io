@@ -8,4 +8,5 @@ fields:
   label: Layout
   default: post
 pages:
+- _posts/matlab-file-operation.md
 - _posts/2018-07-15-fdm-printer.md
