@@ -2,8 +2,8 @@
 title: MatLab File Operation
 layout: post
 date: 2018-11-06 16:57:29 +0800
-
 ---
+
 主要是三个函数：fopen fclose load
 
 ### **1. fopen**
@@ -27,3 +27,8 @@ date: 2018-11-06 16:57:29 +0800
     
     %encoding%
     'UTF-8' 'US-ASCII'
+
+在note的开头打开可写的in.txt：
+    fopen('in.txt','w+','n','UTF-8')
+    
+### **2.fclose** ###
