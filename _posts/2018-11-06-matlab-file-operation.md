@@ -29,7 +29,7 @@ date: 2018-11-06 16:57:29 +0800
     'UTF-8' 'US-ASCII'
 ```
 
-#在note的开头打开可写的in.txt：
+#在note的开头打开可写的in.txt：#
 ```matlab
     fopen('in.txt','w+','n','UTF-8');
 ```
@@ -46,7 +46,7 @@ date: 2018-11-06 16:57:29 +0800
     load(filename,'-ascii') treats filename as an ASCII file, regardless of the file extension.
     load(filename,'-mat') treats filename as a MAT-file, regardless of the file extension.
 ```
-#在note的开头读取in.txt:
+#在note的开头读取in.txt:#
 ```matlab
     load('in.txt');
 ```
