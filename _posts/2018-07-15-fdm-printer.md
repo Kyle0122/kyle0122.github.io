@@ -2,7 +2,6 @@
 title: FDM printer 新结构构想
 layout: post
 date: 2018-07-15 07:10:33 +0000
-
 ---
 现在流行的3D打印机主要有三种结构，卡笛尔(Cartesian)、三角洲(delta)和core XY，另外还有柱机械臂、柱坐标系(polar)还有hang printer。
 
